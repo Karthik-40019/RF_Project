@@ -1005,7 +1005,7 @@ elif page == "ML Predictions":
         "against actual measurements from the held-out test set."
     )
 
-    model_path = ROOT / "models" / "rf_signal_model.joblib"
+    model_path = ROOT / "models" / "rf_signal_model_compressed.joblib"
     test_path = ROOT / "models" / "rf_test_records.csv"
 
     if not model_path.exists():
